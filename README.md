@@ -3,7 +3,6 @@
 
 ## Comandos para Teste no Terminal Linux
 
-Siga os passos abaixo para compilar e executar o projeto no ambiente de defesa (Codespaces):
 
 ### 1. Compilação
 Compila o código-fonte e vincula a biblioteca de threads necessária:
