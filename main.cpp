@@ -7,13 +7,13 @@
 
 using namespace std;
 
-// Estrutura para passar dados para as threads
+// estrutura para passar dados para as threads
 struct ThreadArgs {
     string palavra;
     int id;
 };
 
-// Estrutura para armazenar o resultado da busca
+// estrutura para armazenar o resultado da busca
 struct Resultado {
     string palavra;
     int linha, coluna;
@@ -21,7 +21,7 @@ struct Resultado {
     bool encontrada;
 };
 
-// Variáveis Globais (Necessárias para acesso das threads)
+
 vector<string> diagrama; //Matriz de letras
 vector<string> listaPalavras;
 vector<Resultado> resultados; //Lista final de acertos
